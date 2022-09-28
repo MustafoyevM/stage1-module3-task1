@@ -15,12 +15,12 @@ public class Generics {
     }
 
     //TODO: Refactor Method-2
-    public <T> Object genericMethod(T data) {
+     public Object genericMethod(Object data) {
         return data;
     }
 
     //TODO: Refactor Method-3
-    public void cloneMethod(List<Object> consumer, List<Object> producer) {
+    public void cloneMethod(List consumer, List producer) {
         consumer.addAll(producer);
     }
 
